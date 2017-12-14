@@ -1,0 +1,62 @@
+html {
+  font-size: 18px;
+  padding: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  padding: 0;
+}
+
+.logo span {
+  font-family: Helvetica;
+  font-size: 1rem;
+  margin: 0.66rem auto;
+  padding: 0;
+  display: inline-block;
+}
+
+.mainBanner {
+  display: flex;
+  background-image: url("/Users/AHK/Documents/Projects/SecretAgentSupply/resources/content/moto.jpg");
+  height: 25rem;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mainBanner .content {
+  position: relative;
+  width: 20rem;
+  background-color: black;
+  color: white;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.mainBanner h4 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.mainBanner h1 {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+}
