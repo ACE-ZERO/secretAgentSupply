@@ -127,7 +127,7 @@ nav ul {
 
 .location {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .info {
@@ -159,18 +159,35 @@ footer {
 /* media queries */
 
 @media only screen and (max-width: 1024px), (orientation: portrait) {
+  /* products */
   .product {
     width: 47%;
   }
+
   .glass {
     display: none;
   }
 
+  /* location */
+  .info {
+    width: 47%;
+  }
+
+  /* navigation */
   .secNav {
     display: flex;
   }
 
   .firstNav {
     display: none;
+  }
+
+  /* main banner */
+  .mainBanner h4 {
+    font-size: 0.75rem;
+  }
+
+  .mainBanner h1 {
+    font-size: 1.75rem;
   }
 }
