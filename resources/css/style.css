@@ -11,18 +11,19 @@ html {
 /* header */
 
 .logo {
-  display: flex;
-  align-items: center;
   background-color: black;
   color: white;
-  padding: 0.66rem 0;
+}
+
+.logo .container {
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0 0.66rem 0.5rem;
 }
 
 .logo img {
   height: 1.5rem;
-  margin-left: 0.5rem;
   margin-right: 1rem;
-  padding: 0;
 }
 
 .logo span {
