@@ -82,6 +82,10 @@ nav ul {
   padding: 0.75rem 0;
 }
 
+.secNav {
+  display: none;
+}
+
 /* end navigation */
 
 /* products */
@@ -150,6 +154,23 @@ footer {
   color: white;
 }
 
-
-
 /* end footer */
+
+/* media queries */
+
+@media only screen and (max-width: 1024px), (orientation: portrait) {
+  .product {
+    width: 47%;
+  }
+  .glass {
+    display: none;
+  }
+
+  .secNav {
+    display: flex;
+  }
+
+  .firstNav {
+    display: none;
+  }
+}
