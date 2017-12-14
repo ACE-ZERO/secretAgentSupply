@@ -137,3 +137,18 @@ nav ul {
 }
 
 /* end location */
+
+/* footer */
+
+footer {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  background-color: black;
+  height: 5rem;
+  color: white;
+}
+
+
+
+/* end footer */
